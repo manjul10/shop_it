@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Play:wght@400;700&display=swap');
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 3em;
+  background-color: rgba(239, 166, 85, 255);
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
+.logo-and-text {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+span {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-img {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  gap: 0;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 5em;
+}
+
+.list li {
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
+}
+.list li:hover {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 0.2em;
+}
+.profile {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.profile:hover {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.profile-wraper {
+  margin-right: 80px;
+}
